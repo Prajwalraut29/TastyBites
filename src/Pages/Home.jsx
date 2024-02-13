@@ -4,6 +4,7 @@ import CategoryMenu from '../components/CategoryMenu'
 import Card from '../components/Card'
 import ItemsCard from '../components/ItemsCard'
 import Cart from '../components/Cart'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <CategoryMenu/>
       <ItemsCard/>
       <Cart/>
+      <Footer/>
     </div>
   )
 }
