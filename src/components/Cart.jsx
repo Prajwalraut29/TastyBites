@@ -66,12 +66,12 @@ const Cart = () => {
       </div>
       <div
         onClick={() => setactive(!active)}
-        className={`cursor-pointer rounded-full bg-white shadow-md text-5xl p-3 fixed bottom-4 right-4
-        ${totalQty > 0 && "animate-bounce delay-500 trasition-all"}`}
+        className={`cursor-pointer rounded-full bg-white shadow-md text-3xl p-2 fixed bottom-10 right-4
+        ${totalQty > 0 && "animate-bounce delay-100 trasition-all"}`}
       >
         <FaShoppingCart />
         {cartItems.length > 0 ? (
-          <span className="rounded-full bg-red-500 shadow-md text-sm p-1 fixed  bottom-10 right-3">
+          <span className=" bg-red-500 shadow-md text-sm rounded-full p-1 fixed  bottom-10 right-3">
             {cartItems.length}
           </span>
         ) : null}
