@@ -24,8 +24,8 @@ const Cart = () => {
      } transition-all duration-500 z-50`}
       >
         <div className="flex justify-between items-center my-3">
-          <span className="text-xl font-bold text-gray-800 ">my orders</span>
-          <IoMdClose
+          <span className="text-2xl font-bold text-gray-800 ">my orders</span>
+          <IoMdClose size={28}
             onClick={() => setactive(!active)}
             className="border-2 border-gray-600 text-gray-600 font-bold p-1 text-xl rounded-md hover:text-red-300 hover:border-red-300 cursor-pointer"
           />
@@ -45,7 +45,7 @@ const Cart = () => {
             );
           })
         ) : (
-          <h2 className="text-center text-3xl font-semibold ">
+          <h2 className="text-center text-3xl font-semibold mt5">
             Items is empty add items{" "}
           </h2>
         )}
